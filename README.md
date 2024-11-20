@@ -15,7 +15,6 @@ ___
 - [Application And Use Cases](#application-and-use-cases)
     - [Api Request](#api-request)
     - [Offline Licensing](#Offline Licensing)
-    - [Secure Data Communication](#secure-data-communication)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -54,14 +53,17 @@ For the purpose of debugging the obfuscation, browser extensions will be created
 
 ## Application And Use Cases
 
+There are range of application ranging from hiding data before shaing to generaing stateful licenses.
 
 ### Api Request
 
+The project can be used to obfuscate the json request sent from the service to the client, this would be most helpful for financial applications, rather than just transporting the data over the network the content can be hidden and only the client and server/service will understand the data complement cuting out the possibility of a man in the middle attack. 
 
 ### Offline Licensing
 
+At this time the only way to create a licence that is personalized to a single device/user is to make licence key that requires a communication to a remote server to validate server, an issue with this is if the user does not connect to internet the license can remain valid as long as possible if no way in the application to invalidate the licence. 
 
-### Secure Data Communication
+Obfuscation can be used to achive a licencing system that is completly offline and can carry as much state as possible, and can even be time aware.
 
 
 ## Contributing
