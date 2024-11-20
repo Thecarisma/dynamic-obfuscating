@@ -14,7 +14,7 @@ ___
 - [Debugging](#debugging)
 - [Application And Use Cases](#application-and-use-cases)
     - [Api Request](#api-request)
-    - [Offline Licensing](#Offline Licensing)
+    - [Offline Licensing](#Offline-licensing)
 - [Contributing](#contributing)
 - [License](#license)
 
